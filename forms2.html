@@ -12,6 +12,7 @@
     <script>
         // model
         let aName;
+        let number;
         let font;
 
         // view
@@ -24,9 +25,18 @@
                 <input 
                     type="text" 
                     oninput="aName=this.value" 
-                    value="${aName??''}" 
+                    value="${aName ?? ''}" 
                     /><br/>
                 Tall: <br/>
+                <input 
+                    type="number" 
+                    oninput="number=this.valueAsNumber" 
+                    value="${number ?? ''}" 
+                    /><br/>
+
+                Du har valgt tallet: ${number ?? ''}<br/>
+
+
                 <button onclick="register()">Registrer</button>
 
                 <button onclick="selectFont('helvetica')">Font A</button>
@@ -36,11 +46,11 @@
         }
 
         // controller
-        function register(){
+        function register() {
             updateView();
         }
 
-        function selectFont(fontFamily){
+        function selectFont(fontFamily) {
             font = fontFamily;
             updateView();
         }

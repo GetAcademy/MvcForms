@@ -5,7 +5,7 @@ body {
 }
 
 .alert {
-    width: 20rem;
+    width: 21rem;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -23,8 +23,9 @@ body {
 
 .icon {
     margin-right: 10px;
-    font-weight: bold;
-    font-size: 32px; /* Dobbelt så stort som standard (16px) */
+    width: 2rem;
+    text-align: center;
+    font-size: 32px;     
 }
 
 .message-text p {

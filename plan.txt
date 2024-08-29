@@ -1,11 +1,11 @@
 Eksempel 1 - Tre måter variere HTML - meldingsbokser for suksess, advarsel, info og feil
+ - null
+ - undefined
  - Variabel og if
  - Funksjon
  - Ternary operator / nullish coalescing operator
 
 Eksempel 2 - Skjemaer i MVC - vi lagrer også brukerinput i modellen!
- - null
- - undefined
  - input tekst
  - input tall
  - input checkbox og radioknapp
@@ -13,8 +13,6 @@ Eksempel 2 - Skjemaer i MVC - vi lagrer også brukerinput i modellen!
  - "hjemmelagd" HTML
 
 Ev. eksempel 3 - Innebygd funksjonalitet for tall, tilfeldige tall
-
-
 
     Tall
     - Heltall vs desimaltall

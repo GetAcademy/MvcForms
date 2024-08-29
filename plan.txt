@@ -1,19 +1,21 @@
-Tre måter variere HTML 
+Eksempel 1 - Tre måter variere HTML - meldingsbokser for suksess, advarsel, info og feil
  - Variabel og if
  - Funksjon
  - Ternary operator / nullish coalescing operator
 
-Skjemaer i MVC
+Eksempel 2 - Skjemaer i MVC - vi lagrer også brukerinput i modellen!
+ - null
+ - undefined
  - input tekst
  - input tall
  - input checkbox og radioknapp
  - drop down
  - "hjemmelagd" HTML
 
-null
-undefined
+Ev. eksempel 3 - Innebygd funksjonalitet for tall, tilfeldige tall
 
-Innebygd funksjonalitet
+
+
     Tall
     - Heltall vs desimaltall
     - Pluss, minus, gange, dele og parenteser - modulus

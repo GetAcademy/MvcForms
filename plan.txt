@@ -1,9 +1,8 @@
 Eksempel 1 - Tre måter variere HTML - meldingsbokser for suksess, advarsel, info og feil
- - null
- - undefined
  - Variabel og if
  - Funksjon
  - Ternary operator / nullish coalescing operator
+ - null og undefined
 
 Eksempel 2 - Skjemaer i MVC - vi lagrer også brukerinput i modellen!
  - input tekst
